@@ -23,7 +23,7 @@ import org.testng.annotations.BeforeMethod;
 		
 	}
 	
-	@AfterMethod
+	//@AfterMethod
     public void driverQuit() {
 		
 				driver.quit();
